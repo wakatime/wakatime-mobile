@@ -1,0 +1,16 @@
+.setup-account-section {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.api-link-section {
+  margin: 1rem auto;
+  text-align: center;
+
+  button {
+    .platform-ios & {
+      // Apple rejected app with link or launch to WakaTime website.
+      display: none;
+    }
+  }
+}

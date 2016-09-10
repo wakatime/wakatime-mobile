@@ -5,6 +5,7 @@ angular.module('wakatime').controller('DashCtrl', function ($scope, SettingsServ
 
   $scope.init = function () {
     if (SettingsService.get() && SettingsService.get().apiKey) {
+      $scope.isApiKeySet = true;
       var apiKey = SettingsService.get().apiKey;
       $http.get('https://wakatime.com/api/v1/users/current/?api_key=' + apiKey)
         .then(function (response) {
@@ -18,7 +19,6 @@ angular.module('wakatime').controller('DashCtrl', function ($scope, SettingsServ
         });
     } else {
       $log.warn("No API key yet");
-      $scope.noApiKey = true;
     }
   };
 

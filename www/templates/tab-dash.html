@@ -1,9 +1,9 @@
 <ion-view view-title="Stats">
   <ion-content class="padding">
-    <div class="card" ng-if="noApiKey">
-      <div class="item item-text-wrap assertive">To see your WakaTime stats, set your API Key in Account tab</div>
+    <div class="setup-account-section" ng-if="!isApiKeySet">
+      <button class="button button-small button-outline button-positive" ui-sref="tab.settings">Connect your account</button>
     </div>
-    <div ng-if="!noApiKey">
+    <div ng-if="isApiKeySet">
         <h1>Last 7 Days</h1>
         <div class="list card">
           <div class="item item-divider">Projects</div>
