@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.midmoapps.wakatime" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.midmoapps.wakatime" version="0.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>WakaTime</name>
     <description>
-        WakaTime is automated analytics for programmers. Using open-source plugins for your text editor running in the background, you automatically get insights about your programming.
+        The official WakaTime mobile app. WakaTime is automated analytics for programmers. Using open-source plugins for your text editor running in the background, you automatically get insights about your programming.
     </description>
     <author email="david@midmoapps.com" href="http://www.midmoapps.com">
-      David Frahm
+      David Frahm, MidMo Apps LLC
     </author>
     <content src="index.html" />
     <access origin="*" />
