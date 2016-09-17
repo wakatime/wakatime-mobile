@@ -152,7 +152,7 @@ var dummyStats = {
   "timeout": 15,
   "timezone": "America/Chicago",
   "total_seconds": 22526,
-  "user_id": "c4360635-a6d4-4233-ad47-69b7f7bbf438",
+  "user_id": "api-key-removed-for-security-reasons",
   "username": "davidfrahm",
   "writes_only": false
 };
