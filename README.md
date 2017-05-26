@@ -8,7 +8,7 @@ Right now, this has very minimal functionality:
 * Account screen where you can enter your WakaTime API key, which is necessary for the app to access your WakaTime data
 * Stats screen, displaying last 7 days for projects and languages
 
-##Contributing
+## Contributing
 
 Contributors welcome!  Just follow the typical ["Fork & Pull"](https://help.github.com/articles/using-pull-requests/) GitHub collaborative model.
 
@@ -21,6 +21,6 @@ After clone, run the following commands to set up the project:
 * To restore cordova platforms and required plugins, run ```ionic state restore```
 * Then [test in browser](http://ionicframework.com/docs/cli/test.html) and [run on your device](http://ionicframework.com/docs/cli/run.html).
 
-##License Info 
+## License Info 
 
 [BSD License](LICENSE)
